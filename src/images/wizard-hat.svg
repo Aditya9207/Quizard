@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="hatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333ea" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="brimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hat Brim -->
+  <ellipse cx="100" cy="150" rx="70" ry="20" fill="url(#brimGrad)" />
+
+  <!-- Hat Cone -->
+  <path d="M50 145 Q80 160 150 145 C140 100 120 40 100 20 C80 40 60 100 50 145 Z" fill="url(#hatGrad)" />
+
+  <!-- Hat Fold/Crease (Subtle) -->
+  <path d="M100 20 C110 50 115 80 130 110 C100 100 80 110 70 130" stroke="#5b21b6" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.3" />
+
+  <!-- Stars (Amber & Cyan) -->
+  <!-- Star 1 Amber -->
+  <path d="M30 60 L35 75 L50 75 L38 85 L42 100 L30 90 L18 100 L22 85 L10 75 L25 75 Z" fill="#F59E0B" />
+  <!-- Star 2 Cyan -->
+  <path d="M160 40 L163 50 L173 50 L165 57 L168 67 L160 60 L152 67 L155 57 L147 50 L157 50 Z" fill="#06B6D4" />
+  <!-- Star 3 Amber small -->
+  <path d="M140 100 L142 105 L147 105 L143 108 L145 113 L140 110 L135 113 L137 108 L133 105 L138 105 Z" fill="#F59E0B" />
+  <!-- Star 4 Cyan small -->
+  <path d="M40 120 L42 125 L47 125 L43 128 L45 133 L40 130 L35 133 L37 128 L33 125 L38 125 Z" fill="#06B6D4" />
+
+  <!-- Magic Sparkle at Tip -->
+  <circle cx="100" cy="15" r="8" fill="#F59E0B" />
+  <circle cx="100" cy="15" r="12" fill="#F59E0B" opacity="0.4" />
+  <path d="M100 0 L102 10 L112 12 L102 14 L100 24 L98 14 L88 12 L98 10 Z" fill="#fff" />
+</svg>

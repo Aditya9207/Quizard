@@ -1,0 +1,38 @@
+{
+  "name": "quiz-app",
+  "version": "7.0.0",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "Safdar Jamal",
+    "url": "https://safdarjamal.github.io"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-core": "^4.22.0",
+    "firebase": "^10.12.0",
+    "framer-motion": "^11.2.0",
+    "he": "^1.2.0",
+    "lucide-react": "^1.18.0",
+    "pdfjs-dist": "^6.0.227",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0",
+    "recharts": "^2.12.0",
+    "sweetalert2": "^11.7.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.0"
+  }
+}
